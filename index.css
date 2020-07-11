@@ -1,0 +1,45 @@
+#title {
+  text-align: center;
+  font-size: 3vw;
+  margin: 1vw;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+#input-area {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: 30vw;
+  margin: 1vw;
+  padding: 1vw;
+  border: solid 1px black;
+  box-shadow: 1px 1px 4px;
+}
+#output-area {
+  width: 40vw;
+  height: 30vw;
+  margin: 1vw;
+  padding: 1vw;
+  border: solid 1px black;
+  box-shadow: 1px 1px 4px;
+}
+
+#expenses-table, th {
+  border: solid black 1px;
+  border-collapse: collapse;
+  border-spacing: 3px;
+}
+
+
+#card-title {
+  font-size: 2vw;
+}
+#addExpenseButton {
+  width: 5vw;
+  background-color: grey;
+  margin-top: 1vw;
+}
